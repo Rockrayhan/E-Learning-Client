@@ -5,8 +5,17 @@ const Courses = (props) => {
     return (
         <div>
            
-        </div>
+          <div className="course-card mb-5">
+          <img className="img-fluid course-img" src={img} alt="" />
+          <h5> Course Name : {name}</h5>
+          <p className="fw-bold"> price : {price} </p>
+          </div>
+</div>
+
+        
     );
 };
 
 export default Courses;
+
+
