@@ -27,11 +27,11 @@ const Home = () => {
                         Broadly, e-learning falls into two main categories: asynchronous and synchronous. </p>
                 </div>
                 <div className="col-lg-7">
-                    <img className="img-fluid " src="https://elearningindustry.com/wp-content/uploads/2019/07/top-6-eLearning-trends-of-2019.jpg" alt="" />
+                    <img style={{borderRadius:'10px'}} className="img-fluid " src="https://elearningindustry.com/wp-content/uploads/2019/07/top-6-eLearning-trends-of-2019.jpg" alt="" />
                 </div>
                 </div>
 
-                <div className="home-courses">
+                <div className="row">
                      {
                          homeCourses.map(homeCourse => <HomeCourses
                             homeCourse ={homeCourse}

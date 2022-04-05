@@ -14,7 +14,7 @@ const Service = () => {
         <div>
             <Header> </Header>
             <h2 className="mt-4 mb-5 text-primary">We have {services.length} Services running right now...  </h2>
-            <div className="service-container">
+            <div className="row">
             {
                 services.map(service => <Courses
                 key ={service.name}
