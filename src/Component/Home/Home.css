@@ -1,6 +1,6 @@
 body {
     background-color: rgba(124, 188, 228, 0.226);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .banner {
     margin-left: 80px;
